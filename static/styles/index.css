@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "default";
+    font-size: 14px;
+    src: url("/static/fonts/mcfont.woff2") format("woff2");
+   }
+
+.container {
+    color: #00ff00;
+    background-color: #000000;
+    font-family: "default"; 
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    height: 30em;
+}
+
+.errtext {
+    font-family: "default";
+    font-size: 12px; 
+    color: #00ff00;
+}
+
+.accounttext {
+    font-family: "default";
+    font-size: 12px; 
+    color: #00ff00;
+}
+
+input[type=submit], input[type=button] {
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    background-color: #111111;
+    font-family: "default";
+    font-size: 10px; 
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16.6em;
+    height: 4em;
+}
+
+input[type=text] {
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    background-color: #111111;
+    font-family: "default";
+    font-size: 10px; 
+}
+
+#blank {
+    background-color: #000000
+}

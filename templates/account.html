@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/static/styles/index.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="/static/images/favicon.png" type="image/png"/>
+        <meta charset="utf-8">
+        <title>digital0cean's website</title>
+    </head>
+    <body id="blank">
+        <div class="text">
+            <form action="" method = "post">
+                <div class="container">
+                    <div class="accounttext">
+                            <h3 id="p1">
+                                {%if usr%} Привет, {{usr}}! {%endif%}
+                            </h3>
+                            <h3 id="p1">
+                                {%if lgn%} Ваш логин: {{lgn}}; {%endif%}
+                            </h3>
+                            <h3 id="p1">
+                                {%if psw%} Ваш пароль: {{psw}}. {%endif%}
+                            </h3>
+                    </div>
+                        <a href = "/">
+                            <input type="button" value="На главную">
+                        </a>
+                    </div>
+                </div>
+        </form>
+    </body>
+</html>
